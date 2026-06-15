@@ -1,0 +1,16 @@
+{
+  "name": "MCP Gateway",
+  "port": 8000,
+  "host": "127.0.0.1",
+  "allowed_dirs": ["/home/yourname/projects"],
+  "allowed_commands": [
+    "ls", "cat", "head", "tail", "grep", "find", "wc", "sort",
+    "uniq", "echo", "date", "pwd", "whoami",
+    "git", "python3", "python", "node", "npm", "npx", "pip",
+    "curl", "wget", "mkdir", "touch", "cp", "mv"
+  ],
+  "allow_write": false,
+  "allow_shell": false,
+  "token": "",
+  "audit_log": "~/.mcp-gateway-audit.log"
+}
